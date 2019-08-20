@@ -39,10 +39,15 @@
 .auto-style8 {
 	font-size: larger;
 }
-.auto-style9 {
+.auto-style90 {
 	font-size: large;
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.auto-style9 {
+	font-size: large;
+	
+}
+
 .auto-style10 {
 	font-size: 14pt;
 	color: #707070;
@@ -63,9 +68,19 @@
 	font-size: medium;
 }
 .auto-style17 {
-	font-size: medium;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 13pt;
+
+
 }
+
+.auto-style6 {
+	font-size: 13pt;
+}
+
+.auto-style61{
+	font-size: 12pt;
+}
+
 .auto-style18 {
 	color: #000000;
 	font-size: medium;
@@ -82,20 +97,21 @@ a:hover {
 	margin-top: 0;
 }
 .auto-style21 {
-	margin: 15px;
+	margin: 5px;
 }
 </style>
 </head>
 <body>
 <!--This is the START of the header-->
+
 <div id="topcontrol" style="position: fixed; bottom: 5px; left: 960px; opacity: 1; cursor: pointer;" title="Go to Top"></div>
 <div id="header-wrapper" style="left: 0px; top: -19px; height: 109px">
 	<div id="header">
-		<div id="logo"> &nbsp;<div id="logo1"> &nbsp;<a href="../www_engr_ucr_default.html"><img alt="" height="32" src="images/UCRBourns.jpg" width="133"></a></div>
+		<div id="logo"> &nbsp;<div id="logo1"> &nbsp;<a href="https://www.engr.ucr.edu/"><img alt="" height="50" src="images/UCRBourns.jpg" width="180"></a></div>
 		</div>
-		<div id="header-text" style="width: 743px">
-			<h4 class="auto-style1" style="width: 664px">
-			<strong class="auto-style8">&nbsp;<span class="auto-style14">Hossein Akhavan-Hejazi</span></strong></h4>
+		<div id="header-text" style=" width: 743px">
+			<h4 class="auto-style6" style="width: 664px;">
+			<strong class="auto-style8">Hossein Akhavan-Hejazi</strong></h4>
 		<div id="logo0"></div>
 			<h6><a href="index.html">Home</a></h6>
 		</div>
@@ -107,11 +123,11 @@ a:hover {
 	<div id="main-menu" style="left: 0px; top: 101px; height: 238px">
 		<ul>
 			<li><a class="selected" href="index.html">Home </a></li>
-			<li class="auto-style10"><a href="education.html">Education</a></li>
-			<li class="auto-style10"><a href="experience.html">Experience</a></li>
-			<li class="auto-style10"><a href="publications.html">Publications</a></li>
-			<li class="auto-style10"><a href="awards.html">Awards</a></li>
-			<li class="auto-style10"><a href="contact.html">Contact</a></li>
+			<li class="auto-style10"><a href="education.html">Education <br>&Experience</a></li>
+			<li class="auto-style10"><a href="experience_2.html">Research</a></li>
+			<li class="auto-style10"><a href="publications.html">Publications<br>&Pre-prints</a></li>
+			<li class="auto-style10"><a href="services.html">Professional<br>Services</a></li>
+			
 		</ul>
 		<p>&nbsp;</p>
 		<p>&nbsp;</p>
@@ -119,11 +135,11 @@ a:hover {
 			<li class="auto-style10"><a href="contact.html">
 			<ul>
 				<li><a href="https://scholar.google.com/citations?hl=en&user=wUUuuIgAAAAJ">
-				<img alt="" height="25" src="images/GP_2.png" width="26"></a>&nbsp;
+				<img alt="" height="25" src="images/GP.png" width="26"></a>&nbsp;
 					<a href="https://www.linkedin.com/in/hossein-akhavan-hejazi-6b901864 ">
-				<img alt="" height="26" src="images/Li_2.png" width="24" class="auto-style20"></a>&nbsp;
+				<img alt="" height="26" src="images/Li.png" width="24" class="auto-style20"></a>&nbsp;
 					<a href="https://www.researchgate.net/profile/Hossein_Akhavan-Hejazi">
-				<img alt="" height="27" src="images/RG_2.png" width="24"></a></li>
+				<img alt="" height="27" src="images/RG.png" width="24"></a></li>
 			</ul>
 			</a></li>
 		</ul>
@@ -161,26 +177,94 @@ a:hover {
 	</div>
 	<!--END of follow section-->
 </div>
-<div id="content" style="width: 729px; height: 773px" align="justify">
-	<span class="auto-style17">
-	<img alt="" class="auto-style21" height="270" src="Sajjad3.jpg" style="float: right" width="374"><br>I am a Ph.D. Candidate and Graduate Research Assistant in Electrical Engineering - 
-		Smart Grid at University of California, Riverside. I received my M.S. in 
-		Electrical Engineering - Control Systems from Amirkabir University of 
-		Technology in 2012, and B.S. in Electrical Engineering - Control Systems 
-		from Isfahan University of Technology in 2010. <br> <br>My advisor
-	</span>
-	<span class="auto-style9">
-	<span class="auto-style18">is </span></span>
-	<span class="auto-style3"><span class="auto-style11">
-	<span class="auto-style13">
-	<a class="auto-style15" href="http://www.ee.ucr.edu/~hamed/">Prof. Hamed Mohsenian-Rad</a></span></span></span><span class="auto-style9"><span class="auto-style18"> 
-	an</span></span><span class="auto-style17">d my research interests 
-		are: <br>Power System Dynamics, Wide Area Monitoring Systems (WAMS), 
-		Cyber-Physical Security, Demand Response in Smart Grid, Integration of 
-		Renewable Energy Resources, Complex and Large Scale Control Systems.<br>
-	<br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a class="auto-style19" href="CV.pdf">My CV</a>&nbsp; (Updated on February 2017)</span><div id="topcontrol0" style="position: fixed; bottom: 5px; left: 960px; opacity: 1; cursor: pointer;" title="Go to Top"></div>
-</div>
+<div id="content" style="left: 300px; width: 1000px; height: 773px" align="justify">
+		<span class="auto-style17">
+	<img alt="" class="auto-style21" height="270" src="h.jpg" style="float: right" width="344">
+	
+	<!--This is the START of the portfolio section-->
+  <div class="auto-style6" style="left:5000px ;height: 305px"><span class="auto-style6">
+	  <br> &nbsp;&nbsp;&nbsp; Hossein Akhavan Hejazi, PH.D. 
+	  <br> &nbsp;&nbsp;&nbsp; Assistant Research Faculty/Adjunct Professor 
+	  <br> &nbsp;&nbsp;&nbsp; Winstion Chung Global Energy Center 
+	  <br> &nbsp;&nbsp;&nbsp; Electrical and Computer Engineering Department 
+	  <br> &nbsp;&nbsp;&nbsp; Bourns College of Engineering 
+	  <br>&nbsp;&nbsp;&nbsp; University of California, Riverside 
+	  <br>&nbsp;&nbsp;&nbsp; Office:1084 Columbia Ave., Riverside, CA
+	  <br> &nbsp;&nbsp;&nbsp; E-mail: sakhavanhejaziATengrDOTucrDOTedu
+	  <br> &nbsp;&nbsp;&nbsp; Phone:  951-781-5765
+	  <br>&nbsp;
+      </span>
+
+	</div>
+	
+	
+	<h4 class="spacer" style="left: 15px width: 664px">
+		<br>
+			<strong class="auto-style11">About Me</strong></h4>
+			<br>
+			<br>
+<span class="auto-style17">
+	<br>
+
+	I am an assistant research faculty of the Winston Chung Global Energy Center at UCR Bourns College of Engineering.
+ My research is generally on developing models, mathematical tools, and performing analysis in the application area of smart grid.
+ My efforts have been dedicated to power system analysis, computer programming, optimization techniques, statistical analysis, stochastic optimization, and time-series analysis.
+ I incorporate these techniques to solve problems related to operation and integration of distributed energy resources
+, including renewable generation, demand response, and in particular energy storage systems (ESSs)
+. I work on various practical challenges/opportunities in developing effective designs for operation and planning of ESSs. To know more about my past activities, please look at 
+ <a class="auto-style19" href="CV.pdf">My CV</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br><br>
+ <br> 
+
+<h4 class="spacer" style="left: 15px width: 664px"></h4>
+
+
+<h4 class="auto-style6" style="left: 15px width: 664px">
+			<strong class="auto-style11">Research Interests</strong></h4>
+
+<span class="auto-style17"><br>
+	- Smart grid research:</span>
+	  <br>&nbsp;&nbsp;&nbsp; 
+	  <span class="auto-style61">Energy storage, demand response, distributed energy resources.<br></span>
+<br>
+	- Power system analysis:
+	  <br>&nbsp;&nbsp;&nbsp; 
+	<span class="auto-style61">  Operation, planning, electricity market operations, risk analysis.</span>
+
+ <br>
+<br>
+	- Optimization:
+	  <br>&nbsp;&nbsp;&nbsp; 
+	   <span class="auto-style61">Stochastic programming, convex relaxations, decomposition.<br></span>
+<br>
+	- Data analysis:
+	  <br>&nbsp;&nbsp;&nbsp; 
+	  <span class="auto-style61">Statistical analysis, time-series analysis, state estimation.<br><br><br></span>
+
+
+<h4 class="spacer" style="left: 15px width: 664px"></h4>
+
+	
+<h4 class="auto-style6" style="left: 15px width: 664px">
+			<strong class="auto-style11">News</strong></h4>
+	
+
+<br>I am serving as co-chair for the UCR 2019 Energy Storage Technologes and Aplications Conference hosted by WCGEC.
+
+<br>
+
+
+<br>
+
+	
+<div id="topcontrol0" style="position: fixed; bottom: 5px; left: 960px; opacity: 1; cursor: pointer;" title="Go to Top"></div>
+</div> 
+	  
+  &nbsp;<!--END of portfolio section--></div>
+<!--END of content-->
+<br>	<br><br>	<br><br><br><br>
+	<br>
+
+
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
