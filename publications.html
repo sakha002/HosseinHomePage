@@ -26,30 +26,67 @@
 <script type="text/javascript" src="scripts/jquery.easing-1.3.pack.js"></script>
 <script type="text/javascript" src="scripts/jquery.mousewheel-3.0.4.pack.js"></script>
 <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-<!-- Load contact check -->
-<script type="text/javascript">
-function MM_validateForm() { //v4.0
-  if (document.getElementById){
-    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
-    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
-      if (val) { nm=val.name; if ((val=val.value)!="") {
-        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
-          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
-        } else if (test!='R') { num = parseFloat(val);
-          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
-          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
-            min=test.substring(8,p); max=test.substring(p+1);
-            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
-    } if (errors) alert('We are sorry, but there is an error:\n'+errors);
-    document.MM_returnValue = (errors == '');
-} }
-</script>
+
 <style type="text/css">
-.auto-style1 {
+
+
+
+.Header_style {
+	font-size: larger;
+} 
+
+
+
+.Menu_style {
 	font-size: 14pt;
 	color: #707070;
 }
+.section_style {
+	color: #800000;
+}
+
+
+
+.text_style {
+	font-size: 13.5pt;
+
+
+}
+
+
+
+.finetext_style{
+	font-size: 12pt;
+}
+
+
+a:hover {
+	color: #0000FF;
+}
+
+.hyberlink_style {
+	color: #000080;
+}
+
+
+
+
+
+
+.grey_text_style {
+	font-size: 14pt;
+	color: #999999;
+}
+
+
+
+.subsection_style {
+	font-size: 14pt;
+	color: #800000;	
+}
+
+
+
 .auto-style3 {
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	font-size: medium;
@@ -101,31 +138,34 @@ a:hover {
 	color: #0000FF;
 }
 </style>
+
+
 </head>
 <body>
 <!--This is the START of the header-->
 <div id="topcontrol" style="position: fixed; bottom: 5px; left: 960px; opacity: 1; cursor: pointer;" title="Go to Top"></div>
-<div id="header-wrapper">
+<div id="header-wrapper" style="left: 0px; top: -01px; height: 129px">
 	<div id="header">
-		<div id="logo"> &nbsp;<a href="https://www.engr.ucr.edu/"><img alt="" height="32" src="images/UCRBourns.jpg" width="133"></a></div>
-		<div id="header-text" style="width: 743px">
-			<h4 class="auto-style1" style="width: 664px">
-			<strong class="auto-style9">Hossein Akhavan-Hejazi</strong></h4>
+		<div id="logo"> &nbsp;<div id="logo1"> &nbsp;<a href="https://www.engr.ucr.edu/"><img alt="" height="50" src="images/UCRBourns.jpg" width="180"></a></div>
+		</div>
+		<div id="header-text" style=" width: 743px">
+			<h4 class="grey_text_style" style="width: 664px;">
+			<strong class="Header_style">Hossein Akhavan-Hejazi</strong></h4>
 		<div id="logo0"></div>
-			<h6><a href="index.html">
-			Home / Publications</a></h6>
+			<h6><a href="index.html">Home/ Publications </a></h6>
 		</div>
 	</div>
 </div>
+
 <!--END of header-->
 <!--This is the START of the menu-->
 <div id="menu-wrapper">
   <div id="main-menu">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li class="auto-style1"><a href="education.html">Education<br>&Experience</a></li>
+      <li class="Menu_style"><a href="education.html">Education<br>&Experience</a></li>
       <li><a class="selected" href="publications.html">Publications<br>&Pre-prints  </a></li>
-      <li class="auto-style1"><a href="services.html">Professional<br>Services</a></li>
+      <li class="Menu_style"><a href="services.html">Professional<br>Services</a></li>
 
   
     </ul>
@@ -156,17 +196,18 @@ a:hover {
 <div id="content">
   <div class="spacer" align="justify" style="height: 737px">
 	  
-    <h4 	class="auto-style6" style="width: 664px">
-			<strong class="auto-style11"> Selected Publications</strong></h4>
-
+   <h4 class="section_style" style="left: 15px width: 664px">
+			<strong class="section_style">Selected Publication</strong></h4>
       <br>      
  
-       To find the latest full list of my publications, please look at 
-    <a class="auto-style10" href="https://scholar.google.com/citations?hl=en&user=wUUuuIgAAAAJ">My Google Profile.</a>&nbsp;&nbsp;</span>Pre-prints are available <a class="auto-style10" href="https://www.researchgate.net/profile/Hossein_Akhavan-Hejazi">Here.</a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <br> 
+      <span class="text_style">  To find the latest full list of my publications, please look at </span>
+    <a class="hyberlink_style" href="https://scholar.google.com/citations?hl=en&user=wUUuuIgAAAAJ">My Google Profile.</a>&nbsp;&nbsp;
+      <br> <span class="text_style">  Pre-prints are available </span>
+    <a class="hyberlink_style" href="https://www.researchgate.net/profile/Hossein_Akhavan-Hejazi">Here.</a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   
+   <br> <br>
 
-
-      <span class="auto-style11">Journal Papers: </span>
+      <span class="section_style">Journal Papers: </span>
 
       <br>
       <b>
@@ -215,7 +256,7 @@ a:hover {
 
 
  
-	  	  <strong class="auto-style11">Book Chapters:</strong>
+	  	  <strong class="section_style">Book Chapters:</strong>
 
 	  	  <br>
 
@@ -228,7 +269,7 @@ a:hover {
 
 </div>
 	
-	  	  <strong class="auto-style11">Conference Papers:</strong></span>
+	  	  <strong class="section_style">Conference Papers:</strong></span>
 <br>
 
 <br class="auto-style3">

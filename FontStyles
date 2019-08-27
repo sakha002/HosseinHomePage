@@ -1,0 +1,71 @@
+Styles
+
+<style type="text/css">
+
+.auto-style3 {
+	font-size: large;
+}
+.auto-style8 {
+	font-size: larger;
+} -->
+.auto-style90 {
+	font-size: large;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.auto-style9 {
+	font-size: large;
+	
+}
+
+.auto-style10 {
+	font-size: 14pt;
+	color: #707070;
+}
+.auto-style11 {
+	color: #800000;
+}
+.auto-style13 {
+	font-family: "Franklin Gothic Medium";
+	background-color: #FFFFFF;
+}
+.auto-style14 {
+	color: #000000;
+}
+.auto-style15 {
+	color: #000080;
+	text-decoration: none;
+	font-size: medium;
+}
+.auto-style17 {
+	font-size: 13pt;
+
+
+}
+
+.auto-style6 {
+	font-size: 13pt;
+}
+
+.auto-style61{
+	font-size: 12pt;
+}
+
+.auto-style18 {
+	color: #000000;
+	font-size: medium;
+}
+a:hover {
+	color: #0000FF;
+}
+.auto-style19 {
+	color: #000080;
+}
+.auto-style20 {
+	font-size: 14pt;
+	color: #707070;
+	margin-top: 0;
+}
+.auto-style21 {
+	margin: 5px;
+}
+</style>
