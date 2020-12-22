@@ -6,6 +6,7 @@
 2020 Retrospective
 ==================
 
+.. image:: ./images/icons.png
 
 The year 2020 with the pandemic was for sure so much different for all of us.
 
