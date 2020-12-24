@@ -7,6 +7,7 @@ Professional Activities
 =======================
 `Back to Home <../../../index.html>`_
 
+Here, I am going to share some of the problems that I keep myself busy with. Well my hope is to find topics that are worth talking about.
 
 .. toctree::
    :maxdepth: 2
