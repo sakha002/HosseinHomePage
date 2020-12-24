@@ -8,7 +8,18 @@
 
 .. image:: ./images/icons.png
 
-The year 2020 with the pandemic was for sure so much different for all of us.
+The year 2020 with the pandemic was for sure so difficult for all of us. 
+Still,  besides the atrocities of the CO-VID and brutal isolation, this year was a new interesting chapeter for me (well, you know workwise!)
+
+I have never called myself a data scientist and probably will not!,
+... but this year working with the Data Science and Optimization team of the Shell Energy Platform was really both challenging and fun! 
+well fun in that I learned a lot and tried many new things. 
+After the Q4 retro of the team I thought to look back at what I did and learned this year. 
+I think to me somehow it portrays of a newbie's journey of entrace to tech! from gitlab to docker, kubernetes, kubeflow, and micro services.
+I'd be naive to think I have done any more than scratching the surface on any of these, but let's just say I am happy to play with these new toys!
+
+
+Here is what I could recall form this year's experience.
 
 Q1 Theme: ERCOT 24x7 trader UI Stubbed Sim
 -------------------------------------------
