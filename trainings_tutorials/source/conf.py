@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Professional Activities'
+project = 'Trainings &Tutorials'
 copyright = '2020, Hossein Akhavan Hejazi'
 author = 'Hossein Akhavan Hejazi'
 
@@ -47,7 +47,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -55,24 +55,20 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 
-# html_sidebars = {
-#     '**': [
-#                 'icon.html',
-#         ]
 
-#     }
 
-html_theme_options = {    
-    'logo_only': True,
-    'display_version': False,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
-    'collapse_navigation': True,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': False,
-    'titles_only': False
+
+html_sidebars = {
+    '**': [
+            'home.html',
+            'localtoc.html',            
+            'about.html',            
+            'navigation.html',
+            'relations.html',
+            # located at _templates/
+            'icon.html',
+        ]
+
 }
-
 
 html_logo = "../../images/RIMG4.png"
